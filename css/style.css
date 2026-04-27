@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+ font-family: Arial, sans-serif;
+ background-color: rgb(240, 240, 240);
+ color: rgb(0, 0, 0);
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+} 
+header {
+    background-color: #554adf;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+nav ul li {
+ display: inline-block;
+  margin:  0 15px; 
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    font-size: 1.2em;
+}
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+main {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+ul{
+    list-style: none;
+   
+   
+}
+main h2{
+    color: rgb(13, 13, 13);
+    font-size: 2em;
+    margin-top: 0S;
+} 
+
+main p {
+    font-size: 1.2em;
+}
+
+body h2 {
+    text-align: center;
+    font-size: 2em;
+
+} 
+body p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #554adf;
+    color: rgb(239, 239, 239);
+    text-align: center;
+    padding: 4px 0;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}
+.parrafos {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+.Contenido-footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    padding: 0 50px
+}
+.formato {
+    background-color: #f5f4f4; 
+    color: #333333;  
+    border-radius: 8px;  
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+.formato:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(135deg, #ffffff 0%, #f0efff 100%);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-color: #9595ee;
+    cursor: pointer;
+}
+.catalogo {
+  display: flex;    
+  flex-wrap: wrap;      
+  flex-direction: row;    
+  gap: 20px;              
+  justify-content: center;
+  width: 100%;
+  align-items: stretch;   
+}
